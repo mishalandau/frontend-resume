@@ -5,6 +5,9 @@
     "module": "esnext",
     "target": "es5",
     "lib": ["es6", "dom"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "sourceMap": true,
     "allowJs": true,
     "jsx": "react",
@@ -23,6 +26,7 @@
     "node_modules",
     "build",
     "scripts",
+    "config",
     "acceptance-tests",
     "webpack",
     "jest",
